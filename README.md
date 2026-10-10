@@ -22,7 +22,15 @@ python scanner.py
 
 ## Example output
 ```
-(paste a real scan result here, e.g. for example.com)
+Test Website: github.com
+YES: Strict-Transport-Security
+YES: Content-Security-Policy
+YES: X-Frame-Options
+YES: X-Content-Type-Options
+YES: Referrer-Policy
+No: Permissions-Policy - Restricts which browser features (camera, microphone, location) the page and its embedded content can use.
+Found 5/6 headers
+Score: 90/100, Grade: A
 ```
 
 ## Planned
